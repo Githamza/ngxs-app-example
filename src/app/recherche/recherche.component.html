@@ -1,0 +1,14 @@
+<div class="input-container">
+  <mat-form-field>
+    <input type="text" placeholder="search keywords" matInput [formControl]="myControl" [matAutocomplete]="auto">
+  </mat-form-field>
+
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let option of options" [value]="option">
+      {{ option }}
+    </mat-option>
+  </mat-autocomplete>
+</div>
+<div class="list-container">
+  <app-film-list></app-film-list>
+</div>
