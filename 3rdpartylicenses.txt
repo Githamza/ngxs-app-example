@@ -109,6 +109,10 @@ THE SOFTWARE.
 MIT
 MIT
 
+@angular/http@5.2.10
+MIT
+MIT
+
 @ngxs/devtools-plugin@2.0.0
 MIT
 MIT
